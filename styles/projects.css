@@ -4,3 +4,28 @@
     color: white;
     justify-content: space-evenly;
 }
+
+h1{
+    text-align: center;
+}
+.grid-item{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.grid-item p{
+    padding: -10px;
+    text-align: center;
+    margin: -3px;
+}
+
+.card{
+    border: 1px solid white;
+    height: 125px;
+    width: 250px;
+    background-color: antiquewhite;
+}
+
+
+
+
