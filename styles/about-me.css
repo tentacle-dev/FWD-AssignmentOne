@@ -50,12 +50,16 @@ textarea {
     border-radius: 4px;
 }
 
-input[type="submit"] {
-    background-color: #4caf50;
+button{
+    background-color: rgb(34,193,195);
     color: #fff;
-    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;;
 }
 
-input[type="submit"]:hover {
-    background-color: #45a049;
+button:hover{
+    scale: 1.05;
 }
+

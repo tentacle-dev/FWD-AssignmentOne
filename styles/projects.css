@@ -5,7 +5,7 @@
     justify-content: space-evenly;
 }
 
-h1{
+h1,h6{
     text-align: center;
 }
 .grid-item{
@@ -16,15 +16,34 @@ h1{
 .grid-item p{
     padding: -10px;
     text-align: center;
-    margin: -3px;
+    margin: -1px;
 }
 
 .card{
-    border: 1px solid white;
-    height: 125px;
-    width: 250px;
+    height: 150px;
+    width: 300px;
     background-color: antiquewhite;
 }
+
+p {
+    padding: 5px 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.title{
+    font-size: 0.9em;
+}
+
+.desc{
+    font-size: 0.6em;
+}
+
+.grid-item:hover .title,
+.grid-item:hover .desc {
+    opacity: 1;
+}
+
 
 
 
